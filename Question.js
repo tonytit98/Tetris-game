@@ -7,5 +7,4 @@ function Question() {
     const question = questions[currentQuestion];
     return <h1>{question.question}</h1>;
 }
-
 export default Question;
