@@ -20,7 +20,7 @@ function App() {
     const questions = [
         {
             id: 1,
-            question: 'Reactの特徴？',
+            question: 'Reactの特徴として「適切」なものを選びなさい',
             answer_a:
                 'state',
             answer_b: 'コンポーネント',
@@ -44,7 +44,7 @@ function App() {
             answer_a: 'stateを組み合わせることでアプリを作る',
             answer_b: 'コンポーネントから別のコンポーネントに渡されるデータ',
             answer_c: '各コンポーネント内でのみ管理できるデータ　何かイベントが発生した時にコンポーネントが更新する',
-            answer_d: '全部間違い',
+            answer_d: 'Not of all',
             correct_answer: 'c',
         },
     ];
